@@ -45,11 +45,11 @@ $(document).ready(function() {
                         break;
                 }
 
-                const resultCard = "
-                    <div class=\"result-card\">
-                        <a href=\"${searchUrl}\" target=\"_blank\">${formattedDork}</a>
+                const resultCard = `
+                    <div class="result-card">
+                        <a href="${searchUrl}" target="_blank">${formattedDork}</a>
                     </div>
-                ";
+                `;
                 resultList.append(resultCard);
             });
         };
